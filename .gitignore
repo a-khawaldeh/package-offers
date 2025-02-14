@@ -1,24 +1,70 @@
-# Compiled class file
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Maven
+target/
+!target/*.jar
+!target/*.war
+!target/*.ear
+
+# Gradle
+.gradle/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Spring Boot-specific
+*.bak
+*.swp
+*.swo
+
+# IntelliJ
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Log files
+logs/
+log/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Configuration files
+.env
+.env.local
+.env.*.local
+
+# Node.js (if applicable, for frontend in Spring Boot with Thymeleaf or React)
+node_modules/
+
+# Docker
+.docker/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Other system files
+*.swp
