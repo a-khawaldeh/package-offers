@@ -12,9 +12,9 @@ class PackageCard {
                     </div>
                     <div>
                         <h5>${this.offer.originCity} → ${this.offer.destinationCity}</h5>
-                        <p><strong>Start Date:</strong> ${this.offer.startDate}</p>
-                        <p><strong>End Date:</strong> ${this.offer.endDate}</p>
-                        <p><strong>Price:</strong> ${this.offer.price}</p>
+                        <div><strong>Start Date:</strong> ${this.offer.startDate}</div>
+                        <div><strong>End Date:</strong> ${this.offer.endDate}</div>
+                        <div><strong>Price:</strong> ${this.offer.price}</div>
                     </div>
                 </div>
             </div>
